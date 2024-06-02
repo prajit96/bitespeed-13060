@@ -1,37 +1,37 @@
-# Chatbot Flow Builder
+# 🤖 Chatbot Flow Builder
 
 ## Overview
 
-This project is a simple Chatbot Flow Builder built using React and the React Flow library. The application allows users to create chatbot flows by connecting multiple text message nodes. The design is extensible to accommodate additional node types in the future.
+This project is a Chatbot Flow Builder built using React and the React Flow library. The application allows users to create chatbot flows by connecting multiple text message nodes. The design is extensible to accommodate additional node types in the future.
 
 ## Features
 
 1. **Text Node**
-    - Supports multiple text message nodes in a flow.
-    - Nodes are added by dragging and dropping from the Nodes Panel.
+    - 📩 Supports multiple text message nodes in a flow.
+    - ➕ Nodes are added by dragging and dropping from the Nodes Panel.
 
 2. **Nodes Panel**
-    - Houses all types of nodes that the flow builder supports.
-    - Currently includes only the Message Node but designed for future expansion.
+    - 🗃️ Houses all types of nodes that the flow builder supports.
+    - 🔜 Currently includes only the Message Node but is designed for future expansion.
 
 3. **Edge**
-    - Connects two nodes together.
+    - 🔗 Connects two nodes together.
 
 4. **Source Handle**
-    - Origin of a connecting edge.
-    - Only one edge can originate from a source handle.
+    - 🚀 Origin of a connecting edge.
+    - 1️⃣ Only one edge can originate from a source handle.
 
 5. **Target Handle**
-    - Destination of a connecting edge.
-    - Multiple edges can connect to a target handle.
+    - 🎯 Destination of a connecting edge.
+    - ♾️ Multiple edges can connect to a target handle.
 
 6. **Settings Panel**
-    - Replaces the Nodes Panel when a node is selected.
-    - Includes a text field to edit the text of the selected Text Node.
+    - 🛠️ Replaces the Nodes Panel when a node is selected.
+    - ✏️ Includes a text field to edit the text of the selected Text Node.
 
 7. **Save Button**
-    - Button to save the flow.
-    - Shows an error if there are multiple nodes and more than one node has empty target handles.
+    - 💾 Button to save the flow.
+    - ❗ Shows an error if there are multiple nodes and more than one node has empty target handles.
 
 ## Installation
 
@@ -58,11 +58,11 @@ This project is a simple Chatbot Flow Builder built using React and the React Fl
 
 ## Usage
 
-- Drag and drop a node from the Nodes Panel to the flow area to create a new text node.
-- Connect nodes by dragging from the source handle of one node to the target handle of another.
-- Click on a node to open the Settings Panel and edit the node's text.
-- Click the "Save Changes" button to save the flow.
-- If there are more than one nodes and more than one node has empty target handles, an error will be shown when trying to save.
+- 🖱️ Drag and drop a node from the Nodes Panel to the flow area to create a new text node.
+- 🔗 Connect nodes by dragging from the source handle of one node to the target handle of another.
+- 📝 Click on a node to open the Settings Panel and edit the node's text.
+- 💾 Click the "Save Changes" button to save the flow.
+- ❗ If there are more than one nodes and more than one node has empty target handles, an error will be shown when trying to save.
 
 ## Deployment
 
@@ -70,9 +70,9 @@ The application is deployed on Vercel. You can access the live version [here](ht
 
 ## Technologies Used
 
-- React
-- React Flow
-- React Icons
+- ⚛️ React
+- 🔄 React Flow
+- 🖼️ React Icons
 
 ## Directory Structure
 
